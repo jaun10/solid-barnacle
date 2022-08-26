@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        system.setProperty("server.servlet.context-pah", "/api");
+        System.setProperty("server.servlet.context-path", "/api");
         SpringApplication.run(Main.class, args);
     }
 }
